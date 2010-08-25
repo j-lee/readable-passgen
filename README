@@ -1,0 +1,34 @@
+Readable Passgen README
+
+Introduction
+---------------------------------------------------------------------------------------------------
+This PHP library generates a list of random readable passwords. This list could be exported to a tab-delimited text file to be used in your own database or third-party services. (e.g. passwords for a list of contacts to be used in password-gated web forms.)
+
+Features:
+- Generate any size list of unique passwords
+- Specific the minimum and maximum lengths of the passwords
+- Ability to upload a list of passwords to exclude (e.g. to not have duplicates from a list you already have)
+- Export the list of passwords to a tab-delimited text file
+- Generate md5 hashes of each password
+- Filtering of bad words
+---------------------------------------------------------------------------------------------------
+
+
+
+Requirements
+---------------------------------------------------------------------------------------------------
+Web Server with PHP5+
+---------------------------------------------------------------------------------------------------
+
+
+
+Usage
+---------------------------------------------------------------------------------------------------
+Upload the files to the same directory of your web server:
+- generator.php
+- jquery-1.4.2.min.js
+- class.readable-passgen.php
+
+Navigate to generator.php on your web browser to open up the password generation form.
+The options should be fairly straightforward.
+---------------------------------------------------------------------------------------------------
